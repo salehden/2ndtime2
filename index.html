@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/2/assets/css/style.css">
+</head>
+
+<body>
+    <div class="all-objects center">
+        <div class="caption-text">
+            <h1 class="color-white">Survey Form</h1>
+            <p class="color-white">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div class="wrapper color-darkblue">
+            <form action="">
+
+                <div class="form-group">
+                    <label class="color-white" for="">Name</label>
+                    <input required type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label class="color-white" for="">Email</label>
+                    <input required type="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label class="color-white" for="">Age(optional)</label>
+                    <input required type="number">
+                </div>
+                <div class="form-group">
+                    <label class="color-white" for="">Which option best describes your current role?</label>
+                    <select name="" id="">
+                        <option selected disabled>Select current role</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p class="color-white" for="">Would you recommend freeCodeCamp to a friend?</p>
+                    <label for="male">
+                        <input class="input-radio" type="radio" id="Definetily" name="recommend" value="Definetily" checked>
+                        Definetily
+                    </label>
+                    <label for="female">
+                        <input class="input-radio" type="radio" id="Maybe" name="recommend" value="Maybe">
+                        Maybe</label>
+                    <label for="other">
+                        <input class="input-radio" type="radio" id="Not Sure" name="recommend" value="Not Sure">
+                        Not Sure</label>
+                </div>
+                <div class="form-group">
+                    <select name="" id="">
+                        <option selected disabled>What is your favorite feature of freeCodeCamp?</option>
+                        <option value="">Challenges</option>
+                        <option value="">Projects</option>
+                        <option value="">Community</option>
+                        <option value="">Open Source</option>
+                        <option value="">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="color-white" for="">What would you like to see improved? (Check all that
+                        apply)</label>
+                    <div style="display: flex; flex-direction: column;">
+                        <div><input class="input-checkbox" type="checkbox">
+                            <label for=" ">Front-end Projects</label>
+                        </div>
+                        <div><input class="input-checkbox" type="checkbox">
+                            <label for=" ">Back-end Projects</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Data Visualization</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Challengess</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Open Source Community</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Gitter help rooms</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Videos</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">City Meetups</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Wiki</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Forum</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="input-checkbox">
+                            <label for=" ">Additional Courses</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class=" color-white " for=" ">Any comments or suggestions?</label>
+                    <textarea name=" suggestions " id=" suggestions "
+                        placeholder=" Enter your comment here... "></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="success-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+
+</body>
+
+</html>
